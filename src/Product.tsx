@@ -22,14 +22,6 @@ const Product = ({ productList }: Props) => {
     );
   };
 
-  console.log({ item });
-
-  //   const getContent = () => {
-  //     if (item) {
-  //       return item?.detailsTab.find(({ id }) => id === isActive);
-  //     }
-  //   };
-
   const handleSelectTab = (id: number) => setIsActive(id);
 
   const handleAddtoCart = () => {
